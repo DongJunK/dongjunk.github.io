@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "NHN godo Developer"
   location         : "Seoul"
-  email            : "skdltm357@gmail.com"
+  # email            : "skdltm357@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
