@@ -1,6 +1,5 @@
 ---
 title: "About Dongjun"
-excerpt: "Detail About"
 
 categories:
   - Blog
