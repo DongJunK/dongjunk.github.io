@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: https://dongjunk.github.io/blog/first-post/
   - title: "Tech"
-     url: https://dongjunk.github.io/
+    url: https://dongjunk.github.io/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
