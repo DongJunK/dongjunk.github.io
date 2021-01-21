@@ -7,12 +7,12 @@ categories:
 tags:
   - Blog
 ---
-## 김동준, Kim Dongjun
-### NHN godo Developer
-### Software Maestro 10th
-### SSAFY 4th
-### 010-9224-1427
-### skdltm357@gmail.com
+__김동준, Kim Dongjun__
+__NHN godo Developer__
+__Software Maestro 10th__
+__SSAFY 4th__
+__010-9224-1427__
+__skdltm357@gmail.com__
 
 ---
 ### Project
