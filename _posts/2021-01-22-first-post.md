@@ -1,5 +1,6 @@
 ---
 title: "About Dongjun"
+excerpt: "소개"
 
 categories:
   - Blog
