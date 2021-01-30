@@ -76,7 +76,7 @@ console.log(score); // undefined
 var score; // 변수 선언문
 ```
 -> 자바스크립트 코드는 인터프리터에 의해 한 줄씩 순차적으로 실행되므로 console.log(score)가 가장 먼저 실행되고 순차적으로 실행된다. 따라서 console.log(socre)가 실행되는 시점에는 아직 score 변수의 선언이 실행되지 않았으므로 참조 에러가 발생할 것처럼 보인다. 하지만 참조 에러가 발생하지 않고 undefined가 출력된다.  
-그 이유는 __변수 선언이 소스코드가 한 줄씩 순차적으로 실행되는 시점, 즉 런타임이 아니라 그 이전 단계에서 먼저 실행되기 때문__
+ 그 이유는 __변수 선언이 소스코드가 한 줄씩 순차적으로 실행되는 시점, 즉 런타임이 아니라 그 이전 단계에서 먼저 실행되기 때문__
 - 변수 호이스팅: 변수 선언문이 코드의 선두로 끌어 올려진 것처럼 동작하는 자바스크립트의 고유의 특징
 
 ### 4.5 값의 할당
@@ -93,7 +93,7 @@ console.log(score); // 80
 
 볌수의 선언과 값의 할당을 한 줄로 작성해도 자바스크립트 엔진은 변수의 선언과 값의 할당을 2개의 문으로 나누어 실행한다.  
 
-![value2](../assets/img/value.png)
+![value](../assets/img/value.png)
 
 ```javascript
 console.log(score); // undefined
@@ -117,7 +117,7 @@ score = 90; // 값의 재할당
 
 - 상수 : 값을 재할당할 수 없어서 변수에 저장된 값을 변경할 수 없음
 
-![value](../assets/img/value2.png)
+<img src="../assets/img/value2.png"  width="700" height="370">
 
 - 가바지 콜렉터 : 애플리케이션이 할당한 메모리 공간을 주기적으로 검사하여 더 이상 사용되지 않는 메모리를 해제하는 기능(메모리 누수 방지)
 
@@ -140,11 +140,11 @@ score = 90; // 값의 재할당
 |await|break|case|catch|class|const|
 |continue|debugger|default|delete|do|else|
 |enum|export|extends|false|finally|for|
-|function|if|implements*|import|in|instanceof|
-|interface*|let*|new|null|package*|private*|
-|protected*|public*|return|super|static*|switch|
+|function|if|implements* |import|in|instanceof|
+|interface* |let* |new|null|package* |private* |
+|protected* |public* |return|super|static* |switch|
 |this|throw|true|try|typeof|var|
-|void|while|with|yield*|||
+|void|while|with|yield* |||
 
 - 네이빙 컨벤션 유형
     - 카멜케이스: ex) firstName
