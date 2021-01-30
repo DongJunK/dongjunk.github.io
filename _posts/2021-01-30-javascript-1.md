@@ -81,7 +81,7 @@ var score; // 변수 선언문
 
 ### 4.5 값의 할당
 - 할당: 할당 연산자 =를 사용(대입, 저장)  
--> 변수 선언은 소스코드가 순차적으로 실행되는 시점인 런다임 이전에 먼저 실행되지만 값의 할당은 소스코드가 순차적으로 실행되는 시점인 런타임에 실행된다.
+-> 변수 선언은 소스코드가 순차적으로 실행되는 시점인 런다임 이전에 먼저 실행되지만 값의 할당은 소스코드가 순차적으로 실행되는 시점인 런타임에 실행된다.  
 ```javascript
 console.log(score); // undefined
 
@@ -92,7 +92,7 @@ console.log(score); // 80
 
 볌수의 선언과 값의 할당을 한 줄로 작성해도 자바스크립트 엔진은 변수의 선언과 값의 할당을 2개의 문으로 나누어 실행한다.  
 
-![value2](../assets/img/value.png)
+![value2](../assets/img/value.png)  
 
 ```javascript
 console.log(score); // undefined
@@ -101,7 +101,7 @@ score = 80; // 값의 할당
 var score; // 변수 선언
 
 console.log(score); // ??
-```
+```  
 - 결과  
     undefined  
     80  
@@ -111,7 +111,7 @@ console.log(score); // ??
 ```javascript
 var score = 80; // 변수 선언과 값의 할당
 score = 90; // 값의 재할당
-```
+```  
 -> var키워드로 선언한 변수는 선언과 동시에 undefined로 초기화되기 때문에 엄밀히 말하면 재할당이다.
 
 - 상수 : 값을 재할당할 수 없어서 변수에 저장된 값을 변경할 수 없음
@@ -134,7 +134,8 @@ score = 90; // 값의 재할당
     - 자바스크립트는 대소문자를 구별함.
 
 - 예약어  
-    |-----|-----|-----|-----|-----|-----|
+    |                    예약어명                     |
+    |-------|-------|-------|-------|-------|-------|
     |await|break|case|catch|class|const|
     |continue|debugger|default|delete|do|else|
     |enum|export|extends|false|finally|for|
