@@ -138,7 +138,7 @@ score = 90; // 값의 재할당
 
 - 예약어  
 
-|                 <center>예약어명</center>                     |
+
 |:----------:|:-------------:|:------:|:----------:|:-------------:|------:|
 |    await   |    break    |     case    |    catch   |    class    |    const    |
 |  continue  |   debugger  |   default   |   delete   |     do      |     else    |
