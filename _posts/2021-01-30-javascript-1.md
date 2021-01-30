@@ -137,16 +137,6 @@ score = 90; // 값의 재할당
     - 자바스크립트는 대소문자를 구별함.
 
 - 예약어  
-|                   <center>예약어명</center>                                       |
-|:----------:|:-----------:|:-----------:|:----------:|:-----------:|:-----------:|
-|    await   |    break    |     case    |    catch   |    class    |    const    |
-|  continue  |   debugger  |   default   |   delete   |     do      |     else    |
-|    enum    |     export  |   extends   |   false    |   finally   |     for     |
-|  function  |      if     | implements* |   import   |     in      |  instanceof |
-| interface* |     let*    |     new     |    null    |   package*  |   private*  |
-| protected* |   public*   |    return   |    super   |    static*  |    switch   |
-|    this    |    throw    |     true    |     try    |    typeof   |      var    |
-|    void    |    while    |     with    |    yield*  |             |             |
 
 |                 <center>예약어명</center>                     |
 |:----------:|:-------------:|:------:|:----------:|:-------------:|------:|
@@ -157,6 +147,7 @@ score = 90; // 값의 재할당
 | interface* |     let*    |     new     |    null    |   package*  |   private*  |
 | protected* |   public*   |    return   |    super   |    static*  |    switch   |
 |    this    |    throw    |     true    |     try    |    typeof   |      var    |
+|    void    |    while    |     with    |    yield*  |             |             |
 
 - 네이빙 컨벤션 유형
     - 카멜케이스: ex) firstName
