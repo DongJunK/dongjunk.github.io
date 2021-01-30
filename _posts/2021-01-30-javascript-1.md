@@ -148,9 +148,9 @@ score = 90; // 값의 재할당
 |    this    |    throw    |     true    |     try    |    typeof   |      var    |
 |    void    |    while    |     with    |    yield*  |             |             |
 
-|                 제목                    |
+|                 예약어명                    |
 |----------|:-------------:|------:|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 | col 1 is |  left-aligned | $1600 |
+|    await   |    break    |     case    |    catch   |    class    |    const    |
 | col 2 is |    centered   |   $12 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |       | col 3 is | right-aligned |       |
 
