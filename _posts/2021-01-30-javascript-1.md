@@ -94,7 +94,7 @@ console.log(score); // 80
 볌수의 선언과 값의 할당을 한 줄로 작성해도 자바스크립트 엔진은 변수의 선언과 값의 할당을 2개의 문으로 나누어 실행한다.  
 
 <img width="568" alt="value" src="https://user-images.githubusercontent.com/38952187/106351248-7bac7300-631e-11eb-9037-861842624519.png">
-![value](../assets/img/value.png)
+
 
 ```javascript
 console.log(score); // undefined
@@ -119,7 +119,7 @@ score = 90; // 값의 재할당
 - 상수 : 값을 재할당할 수 없어서 변수에 저장된 값을 변경할 수 없음
 
 <img width="851" alt="value2" src="https://user-images.githubusercontent.com/38952187/106351263-92eb6080-631e-11eb-8f09-533c1b42c286.png">
-<img src="../assets/img/value2.png"  width="700" height="370">
+
 
 - 가바지 콜렉터 : 애플리케이션이 할당한 메모리 공간을 주기적으로 검사하여 더 이상 사용되지 않는 메모리를 해제하는 기능(메모리 누수 방지)
 
@@ -137,15 +137,15 @@ score = 90; // 값의 재할당
     - 자바스크립트는 대소문자를 구별함.
 
 - 예약어  
-| 예약어명 |  예약어명 |  예약어명 | 예약어명  | 예약어명  | 예약어명  |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| await | break | case | catch | class | const |
-| continue | debugger | default | delete | do | else |
-| enum | export | extends | false | finally | for |
-| function | if | implements* | import | in | instanceof |
-| interface* | let* | new | null | package* | private* |
-| protected* | public* | return | super | static* | switch |
-| this | throw | true | try | typeof | var |
+| 예약어명 |  예약어명 |  예약어명 | 예약어명  | 예약어명  | 예약어명  |  
+| :---: | :---: | :---: | :---: | :---: | :---: |  
+| await | break | case | catch | class | const |  
+| continue | debugger | default | delete | do | else |  
+| enum | export | extends | false | finally | for |  
+| function | if | implements* | import | in | instanceof |  
+| interface* | let* | new | null | package* | private* |  
+| protected* | public* | return | super | static* | switch |  
+| this | throw | true | try | typeof | var |  
 | void | while | with | yield* |   |   |
 
 - 네이빙 컨벤션 유형
