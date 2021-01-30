@@ -30,6 +30,7 @@ tags:
 
 - 할당과 참조
     할당 : 변수에 값을 저장하는 것(대입, 저장)
+
     참조 : 변수에 저장된 값을 읽어 들이는 것
 
 ### 4.2 식별자
@@ -93,7 +94,7 @@ console.log(score); // 80
 
 볌수의 선언과 값의 할당을 한 줄로 작성해도 자바스크립트 엔진은 변수의 선언과 값의 할당을 2개의 문으로 나누어 실행한다.
 
-![value](../assets/img/value.png)
+![value2](../assets/img/value.png)
 
 ```javascript
 console.log(score); // undefined
@@ -135,15 +136,16 @@ score = 90; // 값의 재할당
     - 자바스크립트는 대소문자를 구별함.
 
 - 예약어
-    |await|break|case|catch|class|const
-    |continue|debugger|default|delete|do|else
-    |enum|export|extends|false|finally|for
-    |function|if|implements*|import|in|instanceof
-    |interface*|let*|new|null|package*|private*
-    |protected*|public*|return|super|static*|switch
-    |this|throw|true|try|typeof|var
+    |-----|-----|-----|-----|-----|-----|
+    |await|break|case|catch|class|const|
+    |continue|debugger|default|delete|do|else|
+    |enum|export|extends|false|finally|for|
+    |function|if|implements*|import|in|instanceof|
+    |interface*|let*|new|null|package*|private*|
+    |protected*|public*|return|super|static*|switch|
+    |this|throw|true|try|typeof|var|
     |void|while|with|yield*|||
-    
+
 - 네이빙 컨벤션 유형
     - 카멜케이스: ex) firstName
     - 스네이크 케이스: ex) first_name
