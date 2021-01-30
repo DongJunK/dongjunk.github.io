@@ -152,7 +152,7 @@ score = 90; // 값의 재할당
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| col 3 is | right-aligned |       |
 
 - 네이빙 컨벤션 유형
     - 카멜케이스: ex) firstName
