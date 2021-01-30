@@ -154,6 +154,9 @@ score = 90; // 값의 재할당
 |  continue  |   debugger  |   default   |   delete   |     do      |     else    |
 |    enum    |     export  |   extends   |   false    |   finally   |     for     |
 |  function  |      if     | implements* |   import   |     in      |  instanceof |
+| interface* |     let*    |     new     |    null    |   package*  |   private*  |
+| protected* |   public*   |    return   |    super   |    static*  |    switch   |
+|    this    |    throw    |     true    |     try    |    typeof   |      var    |
 
 - 네이빙 컨벤션 유형
     - 카멜케이스: ex) firstName
