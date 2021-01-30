@@ -148,11 +148,12 @@ score = 90; // 값의 재할당
 |    this    |    throw    |     true    |     try    |    typeof   |      var    |
 |    void    |    while    |     with    |    yield*  |             |             |
 
-|                 예약어명                    |
-|----------|:-------------:|------:|----------|:-------------:|------:|
+|                 <center>예약어명</center>                     |
+|:----------:|:-------------:|:------:|:----------:|:-------------:|------:|
 |    await   |    break    |     case    |    catch   |    class    |    const    |
-| col 2 is |    centered   |   $12 | col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |       | col 3 is | right-aligned |       |
+|  continue  |   debugger  |   default   |   delete   |     do      |     else    |
+|    enum    |     export  |   extends   |   false    |   finally   |     for     |
+|  function  |      if     | implements* |   import   |     in      |  instanceof |
 
 - 네이빙 컨벤션 유형
     - 카멜케이스: ex) firstName
