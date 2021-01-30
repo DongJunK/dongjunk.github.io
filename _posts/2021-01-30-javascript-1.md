@@ -148,7 +148,7 @@ score = 90; // 값의 재할당
 |    this    |    throw    |     true    |     try    |    typeof   |      var    |
 |    void    |    while    |     with    |    yield*  |             |             |
 
-|          |               |       |
+|                 제목              |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
 | col 2 is |    centered   |   $12 |
