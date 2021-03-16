@@ -97,7 +97,7 @@ Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemp
 
  해당 코드는 Object Storage 오픈소스 `downloadObject` 메소드입니다.  
  `HttpEntity`는 header를 새로 만들어 요청하기 위한 객체인데, header를 새로 만들 필요가 없다면 exchange 메소드를 호출할 때 `@Nullable`이기 때문에 `null`도 가능합니다.  
- 주어진 URI 변수가 있는 경우 파라미터가 확장됩니다.
+ 주어진 URI에 변수가 있는 경우 파라미터를 확장하여 추가할 수 있습니다.
 
 ### execute
 
@@ -124,7 +124,7 @@ Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemp
 
  해당 코드는 Object Storage 오픈소스 `uploadObject` 메소드입니다.  
  execute()는 `콜백을 통해 요청 준비와 응답 추출을 완벽하게 제어`하여 요청을 수행하는 가장 일반적인 메서드를 RestTemplate에서 제공합니다. 그래서 getForObject(), put()등은 내부적으로 execute() 메서드를 호출하게 되어 있습니다.  
- 주어진 URI 변수가 있는 경우 파라미터가 확장됩니다.
+ 주어진 URI에 변수가 있는 경우 파라미터를 확장하여 추가할 수 있습니다.
 
 ### HTTP Request
 
@@ -142,9 +142,8 @@ Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemp
 
  `HttpComponentsClientHttpRequestFactory`와 `HttpClient`를 사용하여 필요한 설정을 적용하여 HTTP 요청을 보낼 수 있습니다.
 
-
-
 ## Reference
+
 [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html)
 [https://flowarc.tistory.com/entry/Spring-RestTemplate](https://flowarc.tistory.com/entry/Spring-RestTemplate)
 [https://advenoh.tistory.com/46](https://advenoh.tistory.com/46)
