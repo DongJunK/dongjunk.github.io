@@ -50,6 +50,8 @@ Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemp
 
 ## 예제
 
+ 자주 사용하는 메소드 기준으로 정리해보겠습니다.
+
 ### getForEntity
 
 ```java
