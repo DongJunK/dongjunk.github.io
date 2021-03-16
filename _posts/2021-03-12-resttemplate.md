@@ -63,15 +63,7 @@ Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemp
 ### getForObject
 
 ```java
-    HttpComponentsClientHttpRequestFactory factory = new HttpComponentsClientHttpRequestFactory(); 
-    factory.setReadTimeout(5000); // 읽기시간초과, ms 
-    factory.setConnectTimeout(3000); // 연결시간초과, ms 
-    HttpClient httpClient = HttpClientBuilder.create() 
-        .setMaxConnTotal(100) // connection pool 적용 
-        .setMaxConnPerRoute(5) // connection pool 적용 
-        .build(); 
-    factory.setHttpClient(httpClient); // 동기실행에 사용될 HttpClient 세팅 
-    RestTemplate restTemplate = new RestTemplate(factory); 
+    RestTemplate restTemplate = new RestTemplate(); 
     Object obj = restTemplate.getForObject("요청할 URI 주소", "응답 Type", "uriVariables ...");
 ```
 
