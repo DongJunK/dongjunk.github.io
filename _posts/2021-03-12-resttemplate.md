@@ -8,9 +8,9 @@ tags:
  - restemplate
 ---
 
-# RestTemplate 정리
+# RestTemplate 개념 정리
 
-Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemplate에 대해 정리해보겠습니다.
+ HTTP 통신을 위해 Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemplate에 대해 정리해봤습니다.
 
 ## RestTemplate이란?
 
@@ -20,6 +20,7 @@ Object Storage, SKM, 통합 로그인 API 호출 등에서 사용했던 RestTemp
 - HTTP Connection으로 동작
 
 ## RestTemplate 동작 원리
+
 ![rest_template](https://user-images.githubusercontent.com/38952187/111241070-bc96e780-863f-11eb-877a-32bb70519856.png)
 
 1. 어플리케이션이 RestTemplate를 생성하고, URI, HTTP 메소드 등의 헤더를 담아 요청
